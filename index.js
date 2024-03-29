@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let rnadomNumber = Math.floor(Math.random() * 6 + 1);
 const answer = await inquirer.prompt([
